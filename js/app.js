@@ -1,7 +1,7 @@
 angular.module('rescueMe', ['ngAnimate','ui.slider', 'ui.bootstrap'])
 .controller( 'RescueMeCtrl', ['$scope', '$modal', function($scope, $modal) {
     // https://docs.google.com/spreadsheets/d/1y-kJ2lehFeMEn4avPAzf1b7RfsYTKL19fsznK8qaP_w
-    var URL = "1y-kJ2lehFeMEn4avPAzf1b7RfsYTKL19fsznK8qaP_w";
+    var URL = "https://docs.google.com/spreadsheets/d/1L1e59oTKBBO2M7eZ6rgD8UDFDxFBjTrKpHwB2gg7zmc/pubhtml";
     $scope.dogs = [];
     $scope.filterByType = {
         breed: [],
