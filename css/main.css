@@ -2,8 +2,17 @@
 #header .title{
     font-size: 3em;
     text-align: center;
-    height: 125px;
+    height: 145px;
 }
+
+/*#header {
+    background-color: red;
+}
+
+#main {
+    background-color: green;
+}*/
+
 #header .subtitle{
     text-align: center;
     font-size: 1.3em;
@@ -43,7 +52,7 @@ div.row {
 /* Controls */
 
 #side {
-    margin-top: -100px;
+    margin-top: 10px;
 }
 
 #side h2 {

@@ -39,6 +39,7 @@
           <span ng-show="dog.weight"><span class="small">Value</span> <span class="attrib weight"><strong>{{dog.weight}} lbs</strong></span></span>
           <span ng-show="dog.spayedorneutered"><span class="small">Kastracja/Sterylizacja</span> <span class="attrib spayedorneutered"><strong>{{dog.spayedorneutered | uppercase}}</strong></span></span>
           <span ng-show="dog.energylevel"><span class="small">Usposobienie</span> <span class="attrib energylevel"><strong>{{dog.energylevel}}</strong></span></span>
+          <span ng-show="dog.energylevel"><span class="small">Numer identyfikacyjny</span> <span class="attrib energylevel"><strong>#{{dog.id}}</strong></span></span>
         </div>
         <div class="full-specs" ng-show="dog.breed">
           <span class="small">Umaszczenie</span> <span class="attrib breed"><strong>{{dog.breed}}</strong></span>
