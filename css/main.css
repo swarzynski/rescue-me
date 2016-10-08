@@ -5,10 +5,10 @@
     height: 145px;
 }
 
-/*#header {
-    background-color: red;
+#header {
+    height: 200px;
 }
-
+/*
 #main {
     background-color: green;
 }*/
@@ -19,6 +19,18 @@
     padding-top: 40px;
     vertical-align: bottom;
     color: #909090;
+}
+
+#header .header-row{
+    text-align: center;
+    vertical-align: bottom;
+    height: 100%;
+}
+
+#header h2{
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* Dogs */
